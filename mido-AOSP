@@ -1,6 +1,6 @@
 #Device Specific Blobs
 git clone https://github.com/niikhill/device_xiaomi_mido.git -b oreo-mr1 device/xiaomi/mido
-git clone https://github.com/IamJoker03/kernel_xiaomi_msm8953 -b o8.1 kernel/xiaomi/msm8953
+git clone https://github.com/niikhill/android_kernel_xiaomi_msm8953.git -b featherO_rebase kernel/xiaomi/msm8953
 git clone https://github.com/TheScarastic/proprietary_vendor_xiaomi -b lineage-15.0 vendor/xiaomi
 
 #HAL's
