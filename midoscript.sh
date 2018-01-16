@@ -12,17 +12,3 @@ git clone https://github.com/Adesh15/hardware_qcom_audio -b lineage-15.0-caf-899
 git clone https://github.com/Adesh15/hardware_qcom_media.git -b lineage-15.0-caf-8996 hardware/qcom/media-caf/msm8996
 
 #VoLTE Fix 
-rm -rf frameworks/opt/telephony
-rm -rf frameworks/opt/net/ims
-rm -rf packages/apps/PhoneCommon
-rm -rf packages/services/Telecomm
-rm -rf packages/services/Telephony
-rm -rf vendor/qcom/opensource/dataservices
-git clone https://github.com/omnirom/android_frameworks_opt_telephony -b android-8.1-ims frameworks/opt/telephony
-git clone https://github.com/omnirom/android_frameworks_opt_net_ims -b android-8.1-ims frameworks/opt/net/ims
-git clone https://github.com/omnirom/android_packages_apps_PhoneCommon -b android-8.1-ims packages/apps/PhoneCommon
-git clone https://github.com/omnirom/android_packages_services_Telephony.git -b android-8.1-ims packages/services/Telephony
-git clone https://github.com/omnirom/android_packages_services_Telecomm -b android-8.1-ims packages/services/Telecomm
-git clone https://github.com/omnirom/vendor_qcom_opensource_dataservices.git -b android-8.1 vendor/qcom/opensource/dataservices
-
-#Cherry-Pick VoLTE commits! 
