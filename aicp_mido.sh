@@ -23,7 +23,8 @@ git fetch https://github.com/sayan7848/frameworks_base o8.1
 git cherry-pick f51906c6563a2a1bb4b9806219c5af0892b9d7e1^..d137285279aaea3ca994307564fb848f9f538e60
 
 cd packages/services/Telephony 
-git fetch c2d445d62c1c00420f07036bbfa7188596f4e89f^..54607ac0dad708f6647a13315d6fc15f423c6ff7 
+git fetch https://github.com/sayan7848/packages_services_Telephony o8.1
+git cherry-pick c2d445d62c1c00420f07036bbfa7188596f4e89f^..54607ac0dad708f6647a13315d6fc15f423c6ff7 
 
 cd frameworks/base 
 git fetch https://github.com/IamJoker03/frameworks_base ims 
