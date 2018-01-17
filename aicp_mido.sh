@@ -31,3 +31,9 @@ git fetch https://github.com/IamJoker03/frameworks_base ims
 git cherry-pick cf01bc3d76a1cf7888a78065bc2dda12ebf59d4e^..63c99490c5e162a5c991e3c7854f9c1199af7e88 
 
 rm -rf hardware/qcom/power
+
+#Building 
+. build/env* 
+export ALLOW_MISSING_DEPENDENCIES=true
+export RELEASE_TYPE=EXPERIMENTAL 
+brunch mido
