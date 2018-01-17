@@ -16,6 +16,8 @@ rm -rf packages/services/Telephony
 git clone https://github.com/RiteshSaxena/packages_services_Telephony/ -b 8.1-ims packages/services/Telephony
 rm -rf packages/services/Telecomm
 git clone https://github.com/omnirom/android_packages_services_Telecomm -b android-8.1-ims packages/services/Telecomm 
+rm -rf vendor/codeaurora/telephony 
+git clone https://github.com/PixelExperience/vendor_codeaurora_telephony.git -b oreo-mr1 vendor/codeaurora/telephony 
 
 #Gerrit 
 cd frameworks/base
