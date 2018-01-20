@@ -16,26 +16,14 @@ rm -rf packages/services/Telephony
 git clone https://github.com/RiteshSaxena/packages_services_Telephony/ -b 8.1-ims packages/services/Telephony
 rm -rf packages/services/Telecomm
 git clone https://github.com/omnirom/android_packages_services_Telecomm -b android-8.1-ims packages/services/Telecomm 
-rm -rf vendor/codeaurora/telephony 
-git clone https://github.com/PixelExperience/vendor_codeaurora_telephony.git -b oreo-mr1 vendor/codeaurora/telephony 
 
-#Gerrit 
-cd frameworks/base
-git fetch https://github.com/sayan7848/frameworks_base o8.1 
-git cherry-pick f51906c6563a2a1bb4b9806219c5af0892b9d7e1^..d137285279aaea3ca994307564fb848f9f538e60
-
-cd packages/services/Telephony 
-git fetch https://github.com/sayan7848/packages_services_Telephony o8.1
-git cherry-pick c2d445d62c1c00420f07036bbfa7188596f4e89f^..54607ac0dad708f6647a13315d6fc15f423c6ff7 
-
-cd frameworks/base 
-git fetch https://github.com/IamJoker03/frameworks_base ims 
-git cherry-pick cf01bc3d76a1cf7888a78065bc2dda12ebf59d4e^..63c99490c5e162a5c991e3c7854f9c1199af7e88 
-
+#Power
 rm -rf hardware/qcom/power
 
-#Building 
-. build/env* 
-export ALLOW_MISSING_DEPENDENCIES=true
-export RELEASE_TYPE=EXPERIMENTAL 
-brunch mido
+HAL's
+rm -rf hardware/qcom/display-caf 
+git clone https://github.com/Adesh15/hardware_qcom_display -b lineage-15.0-caf-8996 hardware/qcom/display-caf/msm8937 
+rm -rf hardware/qcom/audio-caf 
+git clone https://github.com/Adesh15/hardware_qcom_audio -b lineage-15.0-caf-8996 hardware/qcom/audio-caf/msm8937
+rm -rf hardware/qcom/media-caf 
+git clone https://github.com/Adesh15/hardware_qcom_media.git -b lineage-15.0-caf-8996 hardware/qcom/media-caf/msm8937 
