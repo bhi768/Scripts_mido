@@ -1,6 +1,6 @@
 #Device specific BLOBS
-git clone https://github.com/sayan7848/device_xiaomi_mido.git -b bliss-8.1 device/xiaomi/mido
-git clone https://github.com/Adesh15/android_kernel_xiaomi_msm8953.git -b featherO_rebase kernel/xiaomi/msm8953 
+git clone https://github.com/IamJoker03/android_device_xiaomi_mido.git -b o8.1 device/xiaomi/mido
+git clone https://github.com/IamJoker03/android_kernel_xiaomi_msm8953.git -b nucleon_oreo kernel/xiaomi/msm8953
 git clone https://github.com/devstark15/proprietary_vendor_xiaomi -b oreo-mr1 vendor/xiaomi 
 
 #VoLTE Shit 
