@@ -32,8 +32,4 @@ git clone https://github.com/omnirom/vendor_qcom_opensource_dataservices -b andr
 rm -rf packages/apps/PhoneCommon 
 git clone https://github.com/omnirom/android_packages_apps_PhoneCommon -b android-8.1-ims packages/apps/PhoneCommon
 
-#Anything left? volte commits... Pick by urself m8i  ;-;i can but asking can be added here?
 
- Didnt you push to git?   no i  didnt and only one conflict right?
- 
-  wokai t no issue i will do... you have picked volte commits here right?  yes  tell me when the rom is complete it will take another 10mins
