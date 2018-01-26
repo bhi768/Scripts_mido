@@ -28,6 +28,7 @@ rm -rf packages/apps/PhoneCommon
 git clone https://github.com/omnirom/android_packages_apps_PhoneCommon -b android-8.1-ims packages/apps/PhoneCommon
 
 #VOLTE
+cd frameworks/base
 git fetch https://github.com/bhi768/android_frameworks_base 8.1
 git cherry-pick 21e2e0828e3924d52779d8525787a519438db6ce
 git cherry-pick 306831ef9c347048256dfcac99e2fecfa79fc274
