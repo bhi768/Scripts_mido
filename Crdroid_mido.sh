@@ -13,7 +13,7 @@ git clone https://github.com/Adesh15/hardware_qcom_media -b oreo-8937 hardware/q
 git clone https://github.com/bhi768/hardware_qcom_display -b lineage-15.0-caf-8996 hardware/qcom/display-caf/msm8996
 git clone https://github.com/Adesh15/hardware_qcom_display -b oreo-8937 hardware/qcom/display-caf/msm8937 
 
-#Want IMS? 
+#IMS 
 rm -rf frameworks/opt/net/ims
 git clone https://github.com/omnirom/android_frameworks_opt_net_ims -b android-8.1-ims frameworks/opt/net/ims
 rm -rf frameworks/opt/telephony
