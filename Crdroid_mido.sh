@@ -1,3 +1,8 @@
+#Rom Source's
+git clone https://github.com/bhi768/android_device_xiaomi_mido -b oreo-mr1 device/xiaomi/mido
+git clone https://github.com/Adesh15/android_kernel_xiaomi_msm8953 -b featherO_rebase kernel/xiaomi/msm8953
+git clone https://github.com/sathish2026/proprietary_vendor_xiaomi -b oreo-mr1 vendor/xiaomi
+
 #HAL's
 rm -rf hardware/qcom/audio-caf/msm8937
 rm -rf hardware/qcom/audio-caf/msm8996 
