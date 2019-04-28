@@ -5,10 +5,10 @@ echo Removing existing stuff.
 rm -rf device/xiaomi kernel/xiaomi vendor/xiaomi
 
 echo Cloning Kernel
-git clone https://github.com/PixelExperience-Devices/kernel_xiaomi_whyred -b pie kernel/xiaomi/whyred
+git clone https://github.com/CandyDevices/kernel_xiaomi_whyred -b perf kernel/xiaomi/whyred
 
 echo Cloning Vendor
-git clone https://github.com/PixelExperience-Devices/vendor_xiaomi -b pie vendor/xiaomi
+git clone https://github.com/SecretIngredients/vendor_xiaomi_whyred -b c9.0 vendor/xiaomi/whyred
 
 echo Cloning VendorMiuiCamera
 git clone https://github.com/PixelExperience-Devices/vendor_MiuiCamera -b pie-whyred vendor/MiuiCamera
@@ -16,7 +16,7 @@ git clone https://github.com/PixelExperience-Devices/vendor_MiuiCamera -b pie-wh
 echo Cloning Device Tree
 #echo Enter branch
 #read fbranch
-git clone https://github.com/PixelExperience-Devices/device_xiaomi_whyred -b pie device/xiaomi/whyred
+git clone https://github.com/CandyDevices/device_xiaomi_whyred -b c9.0 device/xiaomi/whyred
 
 #End Cloning
 
