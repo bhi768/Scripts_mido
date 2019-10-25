@@ -16,6 +16,6 @@ bash setup/android_build_env.sh
 #Set-up ccache
 echo 'export USE_CCACHE=1' >> ~/.bashrc
 source ~/.bashrc
-ccache -M 50
+ccache -M 100
 
 #End
