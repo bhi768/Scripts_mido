@@ -5,14 +5,14 @@ echo Removing existing stuff.
 rm -rf device/xiaomi kernel/xiaomi vendor/xiaomi
 
 echo Cloning Kernel
-git clone https://github.com/GuaiYiHu/android_kernel_xiaomi_whyred -b lineage-17.0 kernel/xiaomi/whyred
+git clone https://github.com/CandyDevices/kernel_xiaomi_whyred -b c10 kernel/xiaomi/whyred
 
 echo Cloning Vendor
-git clone https://github.com/GuaiYiHu/android_vendor_xiaomi_whyred/ -b lineage-17.0 vendor/xiaomi/whyred
+git clone https://github.com/SecretIngredients/vendor_xiaomi_whyred -b c10 vendor/xiaomi/whyred
 
 echo Cloning Device Tree
 #echo Enter branch
 #read fbranch
-git clone https://github.com/GuaiYiHu/android_device_xiaomi_whyred -b lineage-17.0 device/xiaomi/whyred
+git clone https://github.com/CandyDevices/device_xiaomi_whyred -b c10 device/xiaomi/whyred
 
 #End Cloning
