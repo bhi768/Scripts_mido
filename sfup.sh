@@ -12,13 +12,13 @@
 # v1.4 Fixed changelog file renaming for subsequent builds/uploads
 #
 VERSION="v1.4"
-ROMNAME=$(basename "$PWD") # typical: candy9
+ROMNAME=$(basename "$PWD") # typical: candy10
 #
 ######## DON'T CHANGE ABOVE THIS LINE! ###########################
 # Begin user-defined values
 DEVICES=("whyred") # space delimited, quoted device name list
 UUSER="bhi768"	# SourceForge username
-USSHKEYPATH="/home/candy/.ssh/id_rsa" # set to your local private SSH key path
+USSHKEYPATH="/home/bhi/candy/.ssh/id_rsa" # set to your local private SSH key path
 FTPDIR="out/target/product"	# local top-level ftp upload directory
 UCL=true # set this to upload the changelog with the zip file
 DEBUG=true # set this to enable/verify script variable output
@@ -28,8 +28,8 @@ DEBUG=true # set this to enable/verify script variable output
 OTA=false # not supported
 CLPATH="*changelog"
 UHOST="frs.sourceforge.net"	# upload hostname
-UOFFICIALDIR="/home/pfs/project/candyroms/Official/Pie" # upload target OFFICIAL directory
-UTESTDIR="/home/pfs/project/candyroms/Test/Pie" # upload target TEST directory
+UOFFICIALDIR="/home/pfs/project/candyroms/Official/ten" # upload target OFFICIAL directory
+UTESTDIR="/home/pfs/project/candyroms/Test/ten" # upload target TEST directory
 UDIR="$UOFFICIALDIR"
 OFFICIAL=false
 TEST=false
