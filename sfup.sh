@@ -18,7 +18,7 @@ ROMNAME=$(basename "$PWD") # typical: candy10
 # Begin user-defined values
 DEVICES=("whyred") # space delimited, quoted device name list
 UUSER="bhi768"	# SourceForge username
-USSHKEYPATH="/home/bhi/candy/.ssh/id_rsa" # set to your local private SSH key path
+USSHKEYPATH="/home/bhi//.ssh/id_rsa" # set to your local private SSH key path
 FTPDIR="out/target/product"	# local top-level ftp upload directory
 UCL=true # set this to upload the changelog with the zip file
 DEBUG=true # set this to enable/verify script variable output
